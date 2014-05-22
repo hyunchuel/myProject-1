@@ -1,1 +1,2 @@
 kkk.one
+cd /wo
