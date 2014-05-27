@@ -1,12 +1,6 @@
 {
-    "smtp": {
-        "host": "localhost",
-        "ssl": false,
-        "from": "no-reply@notfound.com"
-    },
-    "app": {
-        "title": "--- ALS Sendmail System ---",
-        "port": 3000
-    },
-    "loglevel": "warning"
+    "sessionRedis" : {
+        "host" : "localhost",
+        "port" : 5001
+    }
 }

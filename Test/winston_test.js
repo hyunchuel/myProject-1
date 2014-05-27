@@ -5,7 +5,6 @@ var winston = require('winston');
 
 //winston.log('info', 'TestLog Message', {anything : 'This is metadata'});
 
-winston.Logger(Object options);
 // winston.Logger 객체를 생성
 var logger = new (winston.Logger)({
     // 아래에서 설명할 여러개의 transport를 추가할 수 있다.
