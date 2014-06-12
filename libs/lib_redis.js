@@ -5,7 +5,7 @@
     var cfg = require('../cfg/config.json');
 
     var Redis = function(host, ip){
-        this,host = host;
+        this.host = host;
         this.ip = ip;
         this.pool = {};
         this.connection(host, ip);
