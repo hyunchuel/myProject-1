@@ -1,10 +1,16 @@
-var http = require('http');
-var qry = require('./qry');
+var sessionServerModule = require('./constructor');
+var async = require('async');
 
+var server = sessionServerModule.SessionServer();
 
-var dbQry = qry.Qry();
-var property = {};
-dbQry.init(property);
-dbQry.test();
+async.waterfall([
+    function (callback) { server.init(callback); }
+], function(err, ack){
+    if(err){
+        console.log(err.message);
+    } else{
+        console.dir(ack);
+    }
 
+});
 

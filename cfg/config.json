@@ -1,6 +1,6 @@
 {
     "sessionRedis" : {
         "host" : "localhost",
-        "port" : 5001
+        "port" : 6001
     }
 }
