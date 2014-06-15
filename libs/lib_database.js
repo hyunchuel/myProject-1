@@ -22,7 +22,9 @@
         self.pool = connection;
     };
 
-    /** pool 에서 커넥션 가져오기.*/
+    /**
+     * pool 에서 커넥션 가져오기.
+     */
     DataBase.prototype.getPoolToConnection  = function(cb){
         var self = this;
         if(!self.pool)

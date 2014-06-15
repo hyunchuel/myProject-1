@@ -1,0 +1,57 @@
+
+/**
+* @module      // 모듈
+* @version     // 버전 만들 수 있다. (
+* @class        // 명시적으로 클래스 작성.
+  @function   // 메소드
+  @namespace
+*/
+
+####  파라미터 설명 ####################################################################
+/**
+ * Represents a book.
+ * @constructor
+ * @param {string} title - The title of the book.
+ * @param {string} author - The author of the book.
+ */
+
+#### 연계가 된다. ####################################################################
+/** A module. Its name is module:foo/bar.
+* @module mysql 라이브러리
+*/
+
+/** The built in string object. Its name is external:String.
+* @external String
+*/
+
+/** An event. Its name is module:foo/bar.event:MyEvent.
+* @event module: mysql 라이브러리.event:reconnection
+*/
+
+#### Return 설명 ####################################################################
+/**
+ * Returns the sum of a and b
+ * @param {Number} a
+ * @param {Number} b
+ * @returns {Number}
+ */
+
+#### 예외 ########################################################################3
+ @throws {InvalidArgumentException}
+
+
+#### enum 처리 ########################################################################3
+ /**
+  * Enum for tri-state values.
+  * @readonly
+  * @enum {number}
+  */
+ var triState = {
+     /** The true value */
+     TRUE: 1,
+     FALSE: -1,
+     /** @type {boolean} */
+     MAYBE: true
+ };
+
+
